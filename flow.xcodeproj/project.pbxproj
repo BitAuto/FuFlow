@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8FD11AD13CFCF35007A5CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11AC13CFCF35007A5CCB /* UIKit.framework */; };
+		C8FD11AF13CFCF35007A5CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11AE13CFCF35007A5CCB /* Foundation.framework */; };
+		C8FD11B113CFCF35007A5CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11B013CFCF35007A5CCB /* CoreGraphics.framework */; };
+		C8FD11B713CFCF35007A5CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8FD11B513CFCF35007A5CCB /* InfoPlist.strings */; };
+		C8FD11BA13CFCF35007A5CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD11B913CFCF35007A5CCB /* main.m */; };
+		C8FD11BD13CFCF35007A5CCB /* flowAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD11BC13CFCF35007A5CCB /* flowAppDelegate.m */; };
+		C8FD11C013CFCF35007A5CCB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8FD11BE13CFCF35007A5CCB /* MainWindow.xib */; };
+		C8FD11C313CFCF35007A5CCB /* flowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD11C213CFCF35007A5CCB /* flowViewController.m */; };
+		C8FD11C613CFCF35007A5CCB /* flowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8FD11C413CFCF35007A5CCB /* flowViewController.xib */; };
+		C8FD11CD13CFCF35007A5CCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11AC13CFCF35007A5CCB /* UIKit.framework */; };
+		C8FD11CE13CFCF35007A5CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11AE13CFCF35007A5CCB /* Foundation.framework */; };
+		C8FD11CF13CFCF35007A5CCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11B013CFCF35007A5CCB /* CoreGraphics.framework */; };
+		C8FD11D713CFCF35007A5CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8FD11D513CFCF35007A5CCB /* InfoPlist.strings */; };
+		C8FD11DA13CFCF35007A5CCB /* flowTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C8FD11D913CFCF35007A5CCB /* flowTests.h */; };
+		C8FD11DC13CFCF35007A5CCB /* flowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD11DB13CFCF35007A5CCB /* flowTests.m */; };
+		C8FD11EB13CFCF8E007A5CCB /* CustomFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FD11EA13CFCF8E007A5CCB /* CustomFlowView.m */; };
+		C8FD11F513CFD2DA007A5CCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FD11F413CFD2DA007A5CCB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8FD11D013CFCF35007A5CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8FD119F13CFCF34007A5CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8FD11A713CFCF34007A5CCB;
+			remoteInfo = flow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8FD11A813CFCF34007A5CCB /* flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FD11AC13CFCF35007A5CCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8FD11AE13CFCF35007A5CCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8FD11B013CFCF35007A5CCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8FD11B413CFCF35007A5CCB /* flow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flow-Info.plist"; sourceTree = "<group>"; };
+		C8FD11B613CFCF35007A5CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8FD11B813CFCF35007A5CCB /* flow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flow-Prefix.pch"; sourceTree = "<group>"; };
+		C8FD11B913CFCF35007A5CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8FD11BB13CFCF35007A5CCB /* flowAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flowAppDelegate.h; sourceTree = "<group>"; };
+		C8FD11BC13CFCF35007A5CCB /* flowAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flowAppDelegate.m; sourceTree = "<group>"; };
+		C8FD11BF13CFCF35007A5CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C8FD11C113CFCF35007A5CCB /* flowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flowViewController.h; sourceTree = "<group>"; };
+		C8FD11C213CFCF35007A5CCB /* flowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flowViewController.m; sourceTree = "<group>"; };
+		C8FD11C513CFCF35007A5CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/flowViewController.xib; sourceTree = "<group>"; };
+		C8FD11CC13CFCF35007A5CCB /* flowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8FD11D413CFCF35007A5CCB /* flowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "flowTests-Info.plist"; sourceTree = "<group>"; };
+		C8FD11D613CFCF35007A5CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8FD11D813CFCF35007A5CCB /* flowTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "flowTests-Prefix.pch"; sourceTree = "<group>"; };
+		C8FD11D913CFCF35007A5CCB /* flowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flowTests.h; sourceTree = "<group>"; };
+		C8FD11DB13CFCF35007A5CCB /* flowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flowTests.m; sourceTree = "<group>"; };
+		C8FD11E913CFCF8E007A5CCB /* CustomFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFlowView.h; sourceTree = "<group>"; };
+		C8FD11EA13CFCF8E007A5CCB /* CustomFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFlowView.m; sourceTree = "<group>"; };
+		C8FD11F413CFD2DA007A5CCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8FD11A513CFCF34007A5CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11F513CFD2DA007A5CCB /* QuartzCore.framework in Frameworks */,
+				C8FD11AD13CFCF35007A5CCB /* UIKit.framework in Frameworks */,
+				C8FD11AF13CFCF35007A5CCB /* Foundation.framework in Frameworks */,
+				C8FD11B113CFCF35007A5CCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FD11C813CFCF35007A5CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11CD13CFCF35007A5CCB /* UIKit.framework in Frameworks */,
+				C8FD11CE13CFCF35007A5CCB /* Foundation.framework in Frameworks */,
+				C8FD11CF13CFCF35007A5CCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8FD119D13CFCF34007A5CCB = {
+			isa = PBXGroup;
+			children = (
+				C8FD11E813CFCF8E007A5CCB /* customFlow */,
+				C8FD11B213CFCF35007A5CCB /* flow */,
+				C8FD11D213CFCF35007A5CCB /* flowTests */,
+				C8FD11AB13CFCF35007A5CCB /* Frameworks */,
+				C8FD11A913CFCF35007A5CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8FD11A913CFCF35007A5CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11A813CFCF34007A5CCB /* flow.app */,
+				C8FD11CC13CFCF35007A5CCB /* flowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8FD11AB13CFCF35007A5CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11F413CFD2DA007A5CCB /* QuartzCore.framework */,
+				C8FD11AC13CFCF35007A5CCB /* UIKit.framework */,
+				C8FD11AE13CFCF35007A5CCB /* Foundation.framework */,
+				C8FD11B013CFCF35007A5CCB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8FD11B213CFCF35007A5CCB /* flow */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11BB13CFCF35007A5CCB /* flowAppDelegate.h */,
+				C8FD11BC13CFCF35007A5CCB /* flowAppDelegate.m */,
+				C8FD11BE13CFCF35007A5CCB /* MainWindow.xib */,
+				C8FD11C113CFCF35007A5CCB /* flowViewController.h */,
+				C8FD11C213CFCF35007A5CCB /* flowViewController.m */,
+				C8FD11C413CFCF35007A5CCB /* flowViewController.xib */,
+				C8FD11B313CFCF35007A5CCB /* Supporting Files */,
+			);
+			path = flow;
+			sourceTree = "<group>";
+		};
+		C8FD11B313CFCF35007A5CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11B413CFCF35007A5CCB /* flow-Info.plist */,
+				C8FD11B513CFCF35007A5CCB /* InfoPlist.strings */,
+				C8FD11B813CFCF35007A5CCB /* flow-Prefix.pch */,
+				C8FD11B913CFCF35007A5CCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8FD11D213CFCF35007A5CCB /* flowTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11D913CFCF35007A5CCB /* flowTests.h */,
+				C8FD11DB13CFCF35007A5CCB /* flowTests.m */,
+				C8FD11D313CFCF35007A5CCB /* Supporting Files */,
+			);
+			path = flowTests;
+			sourceTree = "<group>";
+		};
+		C8FD11D313CFCF35007A5CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11D413CFCF35007A5CCB /* flowTests-Info.plist */,
+				C8FD11D513CFCF35007A5CCB /* InfoPlist.strings */,
+				C8FD11D813CFCF35007A5CCB /* flowTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8FD11E813CFCF8E007A5CCB /* customFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C8FD11E913CFCF8E007A5CCB /* CustomFlowView.h */,
+				C8FD11EA13CFCF8E007A5CCB /* CustomFlowView.m */,
+			);
+			path = customFlow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8FD11A713CFCF34007A5CCB /* flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8FD11DF13CFCF35007A5CCB /* Build configuration list for PBXNativeTarget "flow" */;
+			buildPhases = (
+				C8FD11A413CFCF34007A5CCB /* Sources */,
+				C8FD11A513CFCF34007A5CCB /* Frameworks */,
+				C8FD11A613CFCF34007A5CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flow;
+			productName = flow;
+			productReference = C8FD11A813CFCF34007A5CCB /* flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8FD11CB13CFCF35007A5CCB /* flowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8FD11E213CFCF35007A5CCB /* Build configuration list for PBXNativeTarget "flowTests" */;
+			buildPhases = (
+				C8FD11C713CFCF35007A5CCB /* Sources */,
+				C8FD11C813CFCF35007A5CCB /* Frameworks */,
+				C8FD11C913CFCF35007A5CCB /* Resources */,
+				C8FD11CA13CFCF35007A5CCB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8FD11D113CFCF35007A5CCB /* PBXTargetDependency */,
+			);
+			name = flowTests;
+			productName = flowTests;
+			productReference = C8FD11CC13CFCF35007A5CCB /* flowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8FD119F13CFCF34007A5CCB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C8FD11A213CFCF34007A5CCB /* Build configuration list for PBXProject "flow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8FD119D13CFCF34007A5CCB;
+			productRefGroup = C8FD11A913CFCF35007A5CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8FD11A713CFCF34007A5CCB /* flow */,
+				C8FD11CB13CFCF35007A5CCB /* flowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8FD11A613CFCF34007A5CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11B713CFCF35007A5CCB /* InfoPlist.strings in Resources */,
+				C8FD11C013CFCF35007A5CCB /* MainWindow.xib in Resources */,
+				C8FD11C613CFCF35007A5CCB /* flowViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FD11C913CFCF35007A5CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11D713CFCF35007A5CCB /* InfoPlist.strings in Resources */,
+				C8FD11DA13CFCF35007A5CCB /* flowTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8FD11CA13CFCF35007A5CCB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8FD11A413CFCF34007A5CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11BA13CFCF35007A5CCB /* main.m in Sources */,
+				C8FD11BD13CFCF35007A5CCB /* flowAppDelegate.m in Sources */,
+				C8FD11C313CFCF35007A5CCB /* flowViewController.m in Sources */,
+				C8FD11EB13CFCF8E007A5CCB /* CustomFlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FD11C713CFCF35007A5CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD11DC13CFCF35007A5CCB /* flowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8FD11D113CFCF35007A5CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8FD11A713CFCF34007A5CCB /* flow */;
+			targetProxy = C8FD11D013CFCF35007A5CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8FD11B513CFCF35007A5CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FD11B613CFCF35007A5CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8FD11BE13CFCF35007A5CCB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FD11BF13CFCF35007A5CCB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C8FD11C413CFCF35007A5CCB /* flowViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FD11C513CFCF35007A5CCB /* en */,
+			);
+			name = flowViewController.xib;
+			sourceTree = "<group>";
+		};
+		C8FD11D513CFCF35007A5CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8FD11D613CFCF35007A5CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8FD11DD13CFCF35007A5CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C8FD11DE13CFCF35007A5CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		C8FD11E013CFCF35007A5CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flow/flow-Prefix.pch";
+				INFOPLIST_FILE = "flow/flow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8FD11E113CFCF35007A5CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flow/flow-Prefix.pch";
+				INFOPLIST_FILE = "flow/flow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8FD11E313CFCF35007A5CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flow.app/flow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flowTests/flowTests-Prefix.pch";
+				INFOPLIST_FILE = "flowTests/flowTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C8FD11E413CFCF35007A5CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/flow.app/flow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "flowTests/flowTests-Prefix.pch";
+				INFOPLIST_FILE = "flowTests/flowTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8FD11A213CFCF34007A5CCB /* Build configuration list for PBXProject "flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FD11DD13CFCF35007A5CCB /* Debug */,
+				C8FD11DE13CFCF35007A5CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8FD11DF13CFCF35007A5CCB /* Build configuration list for PBXNativeTarget "flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FD11E013CFCF35007A5CCB /* Debug */,
+				C8FD11E113CFCF35007A5CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8FD11E213CFCF35007A5CCB /* Build configuration list for PBXNativeTarget "flowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8FD11E313CFCF35007A5CCB /* Debug */,
+				C8FD11E413CFCF35007A5CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8FD119F13CFCF34007A5CCB /* Project object */;
+}
